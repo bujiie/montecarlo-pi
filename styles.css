@@ -1,0 +1,17 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Scale canvas with resize attribute to full size */
+canvas[resize] {
+    width: 500px;
+    height: 500px;
+}
